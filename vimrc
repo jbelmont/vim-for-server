@@ -111,6 +111,8 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
+set guifont=FiraMonoForPowerline-Regular:h14
+
 " NOT SUPPORT
 " Enable basic mouse behavior such as resizing buffers.
 " set mouse=a
